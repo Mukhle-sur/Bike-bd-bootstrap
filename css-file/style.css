@@ -1,5 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
-body{
+body {
     font-family: 'Poppins';
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: #fff;
+}
+
+.button a {
+    padding: 10px 24px;
+    background: #E76F51;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 100px;
+}
+
+.navbar-nav li a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+header {
+    background-color: #264653;
+}
+
+.banner-contant span {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.banner-contant h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.banner-contant p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #E0E0E0;
+    max-width: 455px;
+}
+
+.banner-contant .button a {
+    margin-left: 0;
+}
+
+.banner-area .row {
+    padding: 60px 0px;
+}
+
+/* fetured-area */
+.fetured-title h2 {
+    font-size: 48px;
+    line-height: 72px;
+}
+.fetured-title p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+    position: relative;
+}
+.fetured-title p::after {
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 2px;
+    background: #E76F51;
+    border-radius: 1px;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
 }
