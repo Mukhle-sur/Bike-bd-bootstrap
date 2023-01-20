@@ -60,16 +60,19 @@ header {
 }
 
 /* fetured-area */
-.fetured-title h2 {
+.fetured-title h2,
+.latest-title h2 {
     font-size: 48px;
     line-height: 72px;
 }
-.fetured-title p{
+
+.fetured-title p {
     font-size: 14px;
     line-height: 21px;
     color: #E76F51;
     position: relative;
 }
+
 .fetured-title p::after {
     position: absolute;
     content: "";
@@ -80,4 +83,97 @@ header {
     bottom: -5px;
     left: 50%;
     transform: translate(-50%);
+}
+
+/* latest-area */
+.latest-area .button a {
+    margin-left: 0;
+    border: 1px solid #E76F51;
+    background: #fff;
+    color: #E76F51;
+}
+
+.latest-area .btn:hover {
+    color: #fff;
+    background-color: #E76F51;
+}
+
+.card-footer {
+    background: none;
+    border: none;
+}
+
+.latest-area .card-group {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.latest-area .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.latest-area .card-footer {
+    padding-left: 0;
+}
+
+.latest-area .card {
+    padding: 17px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.latest-area .card h5 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.latest-area .card-body p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #6C6C6C;
+    max-width: 340px;
+}
+
+/* happy-clients-area */
+.happy-clients .tilte h2 {
+    font-size: 48px;
+    line-height: 72px;
+    color: #0A0826;
+    ;
+}
+
+.happy-clients .tilte h2 span {
+    color: #E76F51;
+}
+
+.happy-clients .card-group img {
+    width: 149px;
+    height: 149px;
+}
+.happy-clients .card-group{
+    gap: 20px;
+}
+.happy-clients .card {
+    padding: 40px 35px;
+    border: 1px solid #DEDEDE !important;
+    border-radius: 5px;
+}
+.happy-clients .card-body{
+    padding-bottom: 0;
+}
+.happy-clients .card-footer{
+    padding: 0;
+}
+.happy-clients .icon i{
+    color: #E77C40;
+}
+.happy-clients .name h4{
+    color: #23A6F0;
+}
+.happy-clients .post h5{
+    color: #252B42;
 }
